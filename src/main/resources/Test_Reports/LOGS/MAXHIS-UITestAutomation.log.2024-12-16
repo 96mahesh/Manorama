@@ -1,0 +1,1103 @@
+2024-12-16 12:22:36 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 12:22:40 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 12:22:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 12:22:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 12:22:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 12:23:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 12:23:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 12:23:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 12:23:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Babu on element:Enter name
+2024-12-16 12:23:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Mohan on element:Enter middle name
+2024-12-16 12:23:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayanapatruni on element:Enter Last name
+2024-12-16 12:23:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Babu Mohan Nayanapatruni.
+2024-12-16 12:23:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Babu Mohan Nayanapatruni.
+2024-12-16 12:23:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 12:23:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"8247880823" on element:mobileumber enter
+2024-12-16 12:23:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 12:23:26 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b7ebd553b662d5a5c133c9c0b834ab29, clickElement {id=f.719038497C0CD449F496F676AC0788E7.d.69FB1CDA2481BDC0FD583B8A67EBA3C4.e.443}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54251}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54251/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b7ebd553b662d5a5c133c9c0b834ab29)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: b7ebd553b662d5a5c133c9c0b834ab29 - Failed.
+2024-12-16 12:23:26 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b7ebd553b662d5a5c133c9c0b834ab29, clickElement {id=f.719038497C0CD449F496F676AC0788E7.d.69FB1CDA2481BDC0FD583B8A67EBA3C4.e.443}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54251}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54251/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b7ebd553b662d5a5c133c9c0b834ab29)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: b7ebd553b662d5a5c133c9c0b834ab29 - Failed.
+2024-12-16 12:24:05 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 12:24:07 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 12:24:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 12:24:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 12:24:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 12:24:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 12:24:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 12:24:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 12:24:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Babu on element:Enter name
+2024-12-16 12:24:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Mohan on element:Enter middle name
+2024-12-16 12:24:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayanapatruni on element:Enter Last name
+2024-12-16 12:24:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Babu Mohan Nayanapatruni.
+2024-12-16 12:24:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Babu Mohan Nayanapatruni.
+2024-12-16 12:24:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 12:24:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"8347880823" on element:mobileumber enter
+2024-12-16 12:24:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 12:24:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 12:25:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 12:25:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 12:25:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 12:25:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 12:25:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 12:25:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 12:25:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 12:25:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 12:25:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000630.
+2024-12-16 12:25:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. BABU MOHAN NAYANAPATRUNI.
+2024-12-16 12:25:45 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:25:45 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:25:45 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 12:27:37 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 12:27:39 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 12:27:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 12:27:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 12:27:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 12:28:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 12:28:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 12:28:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 12:28:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Babu on element:Enter name
+2024-12-16 12:28:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Mahamad on element:Enter middle name
+2024-12-16 12:28:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayanapatruni on element:Enter Last name
+2024-12-16 12:28:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Babu Mahamad Nayanapatruni.
+2024-12-16 12:28:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Babu Mahamad Nayanapatruni.
+2024-12-16 12:28:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 12:28:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"8337880823" on element:mobileumber enter
+2024-12-16 12:28:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 12:28:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 12:28:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 12:28:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 12:28:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 12:28:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 12:28:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 12:28:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 12:29:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 12:29:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 12:29:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000631.
+2024-12-16 12:29:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. BABU MAHAMAD NAYANAPATRUNI.
+2024-12-16 12:29:08 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:29:08 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:29:08 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 12:40:14 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 12:40:16 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 12:40:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 12:40:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 12:40:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 12:40:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 12:40:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 12:40:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 12:40:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 12:40:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Manohar on element:Enter middle name
+2024-12-16 12:40:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayanapatruni on element:Enter Last name
+2024-12-16 12:40:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Manohar Nayanapatruni.
+2024-12-16 12:40:55 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:40:56 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:40:56 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 12:42:24 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 12:42:26 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 12:42:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 12:42:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 12:42:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 12:42:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 12:42:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 12:42:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 12:43:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 12:43:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Manohar on element:Enter middle name
+2024-12-16 12:43:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayanapatruni on element:Enter Last name
+2024-12-16 12:43:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Manohar Nayanapatruni.
+2024-12-16 12:43:04 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:43:05 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:43:05 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 12:53:41 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 12:53:43 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 12:53:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 12:53:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 12:53:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 12:54:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 12:54:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 12:54:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 12:54:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 12:54:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Rao on element:Enter middle name
+2024-12-16 12:54:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayanapatruni on element:Enter Last name
+2024-12-16 12:54:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Rao Nayanapatruni.
+2024-12-16 12:54:20 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:54:20 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 12:54:20 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 12:59:46 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 12:59:48 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 12:59:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 12:59:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 13:00:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 13:00:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 13:00:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 13:00:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 13:00:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 13:00:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Rao on element:Enter middle name
+2024-12-16 13:00:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 13:00:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Rao Kota.
+2024-12-16 13:00:26 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 13:00:26 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 13:00:26 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 13:02:05 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 13:02:07 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 13:02:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 13:02:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 13:02:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 13:02:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 13:02:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 13:02:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 13:02:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 13:02:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Rao on element:Enter middle name
+2024-12-16 13:02:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 13:02:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Rao Kota.
+2024-12-16 13:02:43 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 13:02:43 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 13:02:43 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 13:08:08 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 13:08:10 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 13:08:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 13:08:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 13:08:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 13:08:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 13:08:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 13:08:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 13:08:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 13:08:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Babu on element:Enter middle name
+2024-12-16 13:08:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 13:08:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Babu Kota.
+2024-12-16 13:08:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Babu Kota.
+2024-12-16 13:08:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 13:08:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"8327880823" on element:mobileumber enter
+2024-12-16 13:08:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 13:08:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 14:07:56 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 14:07:58 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 14:07:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 14:08:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 14:08:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 14:08:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 14:08:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 14:08:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 14:08:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 14:08:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 14:08:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Babu on element:Enter middle name
+2024-12-16 14:08:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 14:08:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Babu Kota.
+2024-12-16 14:08:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Babu Kota.
+2024-12-16 14:08:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 14:08:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"8327880823" on element:mobileumber enter
+2024-12-16 14:08:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 14:08:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 14:08:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 14:09:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 14:09:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 14:09:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 14:09:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 14:09:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 14:09:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 14:09:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 14:09:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000633.
+2024-12-16 14:09:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA BABU KOTA.
+2024-12-16 14:09:27 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 14:09:27 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 14:09:27 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 14:16:22 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 14:16:24 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 14:16:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 14:16:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 14:16:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 14:16:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 14:16:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 14:16:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 14:16:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 14:16:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 14:16:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Rao on element:Enter middle name
+2024-12-16 14:16:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 14:17:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Rao Kota.
+2024-12-16 14:17:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Rao Kota.
+2024-12-16 14:17:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 14:17:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"8327880823" on element:mobileumber enter
+2024-12-16 14:17:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 14:17:11 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ef86065dfc899e3946eb9508319e16f, clickElement {id=f.00A6C7A87120805E65DCF70F68BD6CDB.d.7E2CF015BFC8BFE84BA71C960560FB9B.e.408}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58533/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ef86065dfc899e3946eb9508319e16f)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: 0ef86065dfc899e3946eb9508319e16f - Failed.
+2024-12-16 14:17:11 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0ef86065dfc899e3946eb9508319e16f, clickElement {id=f.00A6C7A87120805E65DCF70F68BD6CDB.d.7E2CF015BFC8BFE84BA71C960560FB9B.e.408}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58533}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58533/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0ef86065dfc899e3946eb9508319e16f)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: 0ef86065dfc899e3946eb9508319e16f - Failed.
+2024-12-16 14:27:46 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 14:27:47 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 14:27:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 14:27:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 14:28:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 14:28:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 14:28:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 14:28:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 14:28:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 14:28:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 14:28:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Rao on element:Enter middle name
+2024-12-16 14:28:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 14:28:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Rao Kota.
+2024-12-16 14:28:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Rao Kota.
+2024-12-16 14:28:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 14:28:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"8347880823" on element:mobileumber enter
+2024-12-16 14:28:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 14:28:36 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47da4f0f239186857fdeff97816face0, clickElement {id=f.A68268EBFC7F47A3E846BAF75547FF38.d.96913F3376188ABCA7550FDB58A31277.e.409}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58592/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (47da4f0f239186857fdeff97816face0)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: 47da4f0f239186857fdeff97816face0 - Failed.
+2024-12-16 14:28:36 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [47da4f0f239186857fdeff97816face0, clickElement {id=f.A68268EBFC7F47A3E846BAF75547FF38.d.96913F3376188ABCA7550FDB58A31277.e.409}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58592/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (47da4f0f239186857fdeff97816face0)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: 47da4f0f239186857fdeff97816face0 - Failed.
+2024-12-16 14:31:52 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 14:31:54 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 14:31:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 14:32:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 14:32:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 14:32:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 14:32:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 14:32:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 14:32:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 14:32:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 14:32:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Rao on element:Enter middle name
+2024-12-16 14:32:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 14:32:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Rao Kota.
+2024-12-16 14:32:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Rao Kota.
+2024-12-16 14:32:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 14:32:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"8347880823" on element:mobileumber enter
+2024-12-16 14:32:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 14:32:40 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c22c665df419ee400fd8bd50eb872ad7, clickElement {id=f.6A52F7EFF9F3A9BA3B085B97A55171ED.d.07C6BB4F64926337E7A2252FF8A5A404.e.409}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58901/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c22c665df419ee400fd8bd50eb872ad7)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: c22c665df419ee400fd8bd50eb872ad7 - Failed.
+2024-12-16 14:32:40 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c22c665df419ee400fd8bd50eb872ad7, clickElement {id=f.6A52F7EFF9F3A9BA3B085B97A55171ED.d.07C6BB4F64926337E7A2252FF8A5A404.e.409}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58901}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58901/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c22c665df419ee400fd8bd50eb872ad7)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: c22c665df419ee400fd8bd50eb872ad7 - Failed.
+2024-12-16 14:33:46 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 14:33:48 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 14:33:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 14:33:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 14:34:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 14:34:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 14:34:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 14:34:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 14:34:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 14:34:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 14:34:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Rao on element:Enter middle name
+2024-12-16 14:34:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 14:34:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Rao Kota.
+2024-12-16 14:34:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Rao Kota.
+2024-12-16 14:34:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 14:34:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"7778688877" on element:mobileumber enter
+2024-12-16 14:34:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 14:34:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 14:34:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 14:34:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 14:35:00 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while selecting the value:Self on element:select patient company.Exceptionstale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88eed09eacb5521590e3a2d7b8628ed9, findChildElements {id=f.9E1103F1710152F2D5B67DEE65B7428C.d.92A1E1BFCA864C9E96AA3D214348760F.e.436, using=xpath, value=.//option[normalize-space(.) = "Self"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58987/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88eed09eacb5521590e3a2d7b8628ed9 - Failed.
+2024-12-16 14:35:00 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while selecting the value:Self on element:select patient company.Exceptionstale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [88eed09eacb5521590e3a2d7b8628ed9, findChildElements {id=f.9E1103F1710152F2D5B67DEE65B7428C.d.92A1E1BFCA864C9E96AA3D214348760F.e.436, using=xpath, value=.//option[normalize-space(.) = "Self"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58987}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58987/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88eed09eacb5521590e3a2d7b8628ed9 - Failed.
+2024-12-16 14:35:43 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 14:35:45 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 14:35:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 14:35:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 14:35:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 14:36:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 14:36:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 14:36:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 14:36:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 14:36:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 14:36:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Rao on element:Enter middle name
+2024-12-16 14:36:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 14:36:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Rao Kota.
+2024-12-16 14:36:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Rao Kota.
+2024-12-16 14:36:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 14:36:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"7778688877" on element:mobileumber enter
+2024-12-16 14:36:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 14:36:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 14:36:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 14:36:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 14:36:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 14:36:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 14:36:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 14:36:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 14:36:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 14:37:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 14:37:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000634.
+2024-12-16 14:37:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA RAO KOTA.
+2024-12-16 14:37:04 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 14:37:04 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 14:37:04 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 14:41:04 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 14:41:06 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 14:41:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 14:41:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 14:41:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 14:41:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 14:41:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 14:41:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 14:41:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 14:41:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 14:41:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Reddy on element:Enter middle name
+2024-12-16 14:41:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 14:41:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Reddy Kota.
+2024-12-16 14:41:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Reddy Kota.
+2024-12-16 14:41:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 14:41:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"7772688877" on element:mobileumber enter
+2024-12-16 14:41:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 14:41:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 14:41:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 14:42:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 14:42:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 14:42:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 14:42:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 14:42:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 14:42:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 14:42:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 14:42:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000635.
+2024-12-16 14:42:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA REDDY KOTA.
+2024-12-16 14:42:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get vist no text value:HSHOP240000700.
+2024-12-16 14:42:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify department of patient text value:Cardiology.
+2024-12-16 14:42:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click close btn
+2024-12-16 14:42:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on Redirecting
+2024-12-16 14:42:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Complet on element:send data from service
+2024-12-16 14:42:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on serach btn
+2024-12-16 14:42:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on lab_check_box
+2024-12-16 14:42:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on add btn
+2024-12-16 14:42:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get doctor_fee text value:1000.00.
+2024-12-16 14:42:41 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 14:42:42 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 14:42:42 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 14:49:17 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 14:49:19 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 14:49:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 14:49:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 14:49:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 14:49:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 14:49:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 14:49:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 14:49:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 14:49:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 14:49:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 14:49:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 14:49:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 14:49:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 14:49:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 14:49:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"7779688877" on element:mobileumber enter
+2024-12-16 14:49:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 14:49:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 14:50:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 14:50:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 14:50:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 14:50:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 14:50:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 14:50:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 14:50:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 14:50:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 14:50:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000637.
+2024-12-16 14:50:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA NAYUDU KOTA.
+2024-12-16 14:50:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get vist no text value:HSHOP240000702.
+2024-12-16 14:50:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify department of patient text value:Cardiology.
+2024-12-16 14:50:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click close btn
+2024-12-16 14:50:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on Redirecting
+2024-12-16 14:50:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Complet on element:send data from service
+2024-12-16 14:50:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on serach btn
+2024-12-16 14:50:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on lab_check_box
+2024-12-16 14:50:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on add btn
+2024-12-16 14:50:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get doctor_fee text value:1000.00.
+2024-12-16 14:50:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get lab_fee text value:150.00.
+2024-12-16 14:50:54 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 14:50:55 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 14:50:55 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 15:06:29 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 15:06:31 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 15:06:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 15:06:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 15:06:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 15:06:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 15:06:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 15:06:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 15:06:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 15:06:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 15:06:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 15:06:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 15:06:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 15:06:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 15:07:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 15:07:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"7779688877" on element:mobileumber enter
+2024-12-16 15:07:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 15:07:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 15:07:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 15:07:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 15:07:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 15:07:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 15:07:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 15:07:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 15:07:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 15:07:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 15:07:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000640.
+2024-12-16 15:07:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA NAYUDU KOTA.
+2024-12-16 15:07:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get vist no text value:HSHOP240000706.
+2024-12-16 15:07:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify department of patient text value:Cardiology.
+2024-12-16 15:07:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click close btn
+2024-12-16 15:07:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on Redirecting
+2024-12-16 15:07:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Complet on element:send data from service
+2024-12-16 15:08:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on serach btn
+2024-12-16 15:08:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on lab_check_box
+2024-12-16 15:08:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on add btn
+2024-12-16 15:08:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get doctor_fee text value:1000.00.
+2024-12-16 15:08:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get lab_fee text value:150.00.
+2024-12-16 15:08:09 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:08:10 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:08:10 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 15:09:14 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 15:09:16 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 15:09:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 15:09:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 15:09:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 15:09:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 15:09:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 15:09:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 15:09:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 15:09:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 15:09:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 15:09:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 15:09:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 15:09:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 15:09:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 15:09:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"7779688877" on element:mobileumber enter
+2024-12-16 15:09:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 15:09:52 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de441b0d8b9c033cd36ea52cf5e988dc, clickElement {id=f.346B8A71B20CFA4F7769694697BC44B2.d.5EF1408C832DDAE0B62A601A3725EA19.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60083/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (de441b0d8b9c033cd36ea52cf5e988dc)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: de441b0d8b9c033cd36ea52cf5e988dc - Failed.
+2024-12-16 15:09:52 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [de441b0d8b9c033cd36ea52cf5e988dc, clickElement {id=f.346B8A71B20CFA4F7769694697BC44B2.d.5EF1408C832DDAE0B62A601A3725EA19.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60083/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (de441b0d8b9c033cd36ea52cf5e988dc)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: de441b0d8b9c033cd36ea52cf5e988dc - Failed.
+2024-12-16 15:10:45 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 15:10:46 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 15:10:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 15:10:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 15:10:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 15:11:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 15:11:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 15:11:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 15:11:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 15:11:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 15:11:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 15:11:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 15:11:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 15:11:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 15:11:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 15:11:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"7779688877" on element:mobileumber enter
+2024-12-16 15:11:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 15:11:22 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1233524f9bee34bee1cfc83393862789, clickElement {id=f.34AE410FC71249505445E026B1325139.d.F41CE90876BC44DA13A19277952D7430.e.409}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60190/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1233524f9bee34bee1cfc83393862789)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: 1233524f9bee34bee1cfc83393862789 - Failed.
+2024-12-16 15:11:22 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1233524f9bee34bee1cfc83393862789, clickElement {id=f.34AE410FC71249505445E026B1325139.d.F41CE90876BC44DA13A19277952D7430.e.409}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60190}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60190/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1233524f9bee34bee1cfc83393862789)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: 1233524f9bee34bee1cfc83393862789 - Failed.
+2024-12-16 15:14:50 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 15:14:52 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 15:14:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 15:14:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 15:15:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 15:15:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 15:15:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 15:15:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 15:15:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 15:15:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 15:15:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 15:15:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 15:15:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 15:15:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 15:15:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 15:15:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9998788875" on element:mobileumber enter
+2024-12-16 15:15:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 15:15:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 15:15:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 15:15:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 15:15:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 15:15:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 15:15:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 15:15:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 15:15:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 15:16:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 15:16:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000644.
+2024-12-16 15:16:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA NAYUDU KOTA.
+2024-12-16 15:16:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get vist no text value:HSHOP240000710.
+2024-12-16 15:16:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify department of patient text value:Cardiology.
+2024-12-16 15:16:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click close btn
+2024-12-16 15:16:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on Redirecting
+2024-12-16 15:16:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Complet on element:send data from service
+2024-12-16 15:16:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on serach btn
+2024-12-16 15:16:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on lab_check_box
+2024-12-16 15:16:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on add btn
+2024-12-16 15:16:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get doctor_fee text value:1000.00.
+2024-12-16 15:16:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get lab_fee text value:150.00.
+2024-12-16 15:16:27 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:16:27 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:16:27 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 15:19:06 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 15:19:07 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 15:19:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 15:19:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 15:19:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 15:19:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 15:19:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 15:19:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 15:19:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 15:19:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 15:19:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 15:19:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 15:19:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 15:19:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 15:19:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 15:19:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788875" on element:mobileumber enter
+2024-12-16 15:19:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 15:19:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 15:19:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 15:20:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 15:20:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 15:20:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 15:20:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 15:20:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 15:20:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 15:20:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 15:20:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000646.
+2024-12-16 15:20:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA NAYUDU KOTA.
+2024-12-16 15:20:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get vist no text value:HSHOP240000712.
+2024-12-16 15:20:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify department of patient text value:Cardiology.
+2024-12-16 15:20:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click close btn
+2024-12-16 15:20:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on Redirecting
+2024-12-16 15:20:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Complet on element:send data from service
+2024-12-16 15:20:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on serach btn
+2024-12-16 15:20:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on lab_check_box
+2024-12-16 15:20:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on add btn
+2024-12-16 15:20:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get doctor_fee text value:1000.00.
+2024-12-16 15:20:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get lab_fee text value:150.00.
+2024-12-16 15:20:44 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:20:44 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:20:44 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 15:36:00 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 15:36:02 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 15:36:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 15:36:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 15:36:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 15:36:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 15:36:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 15:36:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 15:36:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 15:36:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 15:36:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 15:36:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 15:36:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 15:36:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 15:36:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 15:36:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788866" on element:mobileumber enter
+2024-12-16 15:36:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 15:36:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 15:36:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 15:36:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 15:37:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 15:37:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 15:37:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 15:37:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 15:37:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 15:37:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 15:37:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000651.
+2024-12-16 15:37:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA NAYUDU KOTA.
+2024-12-16 15:37:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get vist no text value:HSHOP240000717.
+2024-12-16 15:37:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify department of patient text value:Cardiology.
+2024-12-16 15:37:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click close btn
+2024-12-16 15:37:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on Redirecting
+2024-12-16 15:37:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Complet on element:send data from service
+2024-12-16 15:37:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on serach btn
+2024-12-16 15:37:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on lab_check_box
+2024-12-16 15:37:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on add btn
+2024-12-16 15:37:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get doctor_fee text value:1000.00.
+2024-12-16 15:37:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get lab_fee text value:150.00.
+2024-12-16 15:37:37 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:37:37 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:37:37 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 15:39:01 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 15:39:03 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 15:39:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 15:39:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 15:39:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 15:39:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 15:39:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 15:39:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 15:39:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 15:39:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 15:39:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 15:39:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 15:39:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 15:39:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 15:39:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 15:39:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788889" on element:mobileumber enter
+2024-12-16 15:39:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 15:39:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 15:39:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 15:40:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 15:40:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 15:40:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 15:40:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 15:40:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 15:40:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 15:40:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 15:40:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000652.
+2024-12-16 15:40:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA NAYUDU KOTA.
+2024-12-16 15:40:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get vist no text value:HSHOP240000718.
+2024-12-16 15:40:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify department of patient text value:Cardiology.
+2024-12-16 15:40:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click close btn
+2024-12-16 15:40:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on Redirecting
+2024-12-16 15:40:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Complet on element:send data from service
+2024-12-16 15:40:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on serach btn
+2024-12-16 15:40:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on lab_check_box
+2024-12-16 15:40:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on add btn
+2024-12-16 15:40:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get doctor_fee text value:1000.00.
+2024-12-16 15:40:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get lab_fee text value:150.00.
+2024-12-16 15:40:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get bill_amout text value:1150.00.
+2024-12-16 15:40:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Billing admin on element::select creditGivenBy.
+2024-12-16 15:40:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Billing admin on element::select creditApprovedBy.
+2024-12-16 15:40:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:fee pending on element:Enter remarks
+2024-12-16 15:40:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 15:40:51 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:40:52 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 15:40:52 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 15:53:14 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 15:53:16 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 15:53:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 15:53:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 15:53:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 15:53:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 15:53:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 15:53:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 15:53:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 15:53:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 15:53:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 15:53:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 15:53:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 15:53:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 15:53:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 15:53:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788889" on element:mobileumber enter
+2024-12-16 15:53:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 15:53:52 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad21bdf13d3590a200525d281540e2ff, clickElement {id=f.E291CB218CDBBB08E15378BB957B1F51.d.A24A9FDCC13A5ADFB1F8AE4322F2987A.e.442}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61061/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ad21bdf13d3590a200525d281540e2ff)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: ad21bdf13d3590a200525d281540e2ff - Failed.
+2024-12-16 15:53:53 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad21bdf13d3590a200525d281540e2ff, clickElement {id=f.E291CB218CDBBB08E15378BB957B1F51.d.A24A9FDCC13A5ADFB1F8AE4322F2987A.e.442}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61061/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ad21bdf13d3590a200525d281540e2ff)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: ad21bdf13d3590a200525d281540e2ff - Failed.
+2024-12-16 15:55:17 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 15:55:18 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 15:55:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 15:55:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 15:55:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 15:55:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 15:55:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 15:55:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 15:55:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 15:55:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 15:55:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 15:55:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 15:55:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 15:55:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 15:55:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 15:55:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788849" on element:mobileumber enter
+2024-12-16 15:55:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 15:55:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 15:56:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 15:56:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 15:56:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 15:56:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 15:56:18 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:get consultation charges wait.stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d8157046b2a2de284f85e89021deaf0, isElementDisplayed {id=f.2263EFBBAF27DE756F7F01C4E20364E7.d.01E1257FECABBDFA693B06640032309B.e.752}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61095/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4d8157046b2a2de284f85e89021deaf0)] -> xpath: //input[@placeholder='ConsultationCharges']]
+Session ID: 4d8157046b2a2de284f85e89021deaf0 - Failed.
+2024-12-16 15:56:18 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:get consultation charges wait.stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4d8157046b2a2de284f85e89021deaf0, isElementDisplayed {id=f.2263EFBBAF27DE756F7F01C4E20364E7.d.01E1257FECABBDFA693B06640032309B.e.752}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61095}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61095/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (4d8157046b2a2de284f85e89021deaf0)] -> xpath: //input[@placeholder='ConsultationCharges']]
+Session ID: 4d8157046b2a2de284f85e89021deaf0 - Failed.
+2024-12-16 15:56:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 15:56:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 15:56:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 15:56:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 15:56:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000654.
+2024-12-16 15:56:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA NAYUDU KOTA.
+2024-12-16 15:56:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get vist no text value:HSHOP240000720.
+2024-12-16 15:56:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify department of patient text value:Cardiology.
+2024-12-16 15:56:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click close btn
+2024-12-16 15:56:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on Redirecting
+2024-12-16 15:56:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Complet on element:send data from service
+2024-12-16 15:56:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on serach btn
+2024-12-16 15:56:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on lab_check_box
+2024-12-16 15:56:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on add btn
+2024-12-16 15:56:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get doctor_fee text value:1000.00.
+2024-12-16 15:56:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get lab_fee text value:150.00.
+2024-12-16 15:56:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get bill_amout text value:1150.00.
+2024-12-16 15:56:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Billing admin on element::select creditGivenBy.
+2024-12-16 15:56:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Billing admin on element::select creditApprovedBy.
+2024-12-16 15:56:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:fee pending on element:Enter remarks
+2024-12-16 15:57:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 16:03:32 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 16:03:34 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 16:03:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 16:03:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 16:03:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 16:04:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 16:04:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 16:04:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 16:04:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 16:04:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 16:04:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 16:04:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 16:04:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 16:04:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 16:04:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 16:04:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788835" on element:mobileumber enter
+2024-12-16 16:04:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 16:04:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 16:04:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 16:04:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 16:04:46 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while selecting the value:Self on element:select patient company.Exceptionstale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85d701bfc5665253f60ec790bbda0051, findChildElements {value=.//option[normalize-space(.) = "Self"], id=f.B7CE0043D2F571027EA0E80AD6B91B9B.d.7B261FC8919F3A8E95BEFBE12493B876.e.436, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61281/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85d701bfc5665253f60ec790bbda0051 - Failed.
+2024-12-16 16:04:46 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while selecting the value:Self on element:select patient company.Exceptionstale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85d701bfc5665253f60ec790bbda0051, findChildElements {value=.//option[normalize-space(.) = "Self"], id=f.B7CE0043D2F571027EA0E80AD6B91B9B.d.7B261FC8919F3A8E95BEFBE12493B876.e.436, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61281}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61281/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85d701bfc5665253f60ec790bbda0051 - Failed.
+2024-12-16 16:05:06 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 16:05:08 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 16:05:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 16:05:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 16:05:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 16:05:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 16:05:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 16:05:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 16:05:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 16:05:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 16:05:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 16:05:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 16:05:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 16:05:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 16:05:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 16:05:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788835" on element:mobileumber enter
+2024-12-16 16:05:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 16:05:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click_on_department
+2024-12-16 16:06:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click doctor icon
+2024-12-16 16:06:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :SELF PAY on element::select category of patient.
+2024-12-16 16:06:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Self on element::select patient company.
+2024-12-16 16:06:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click calculate validity
+2024-12-16 16:06:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get consultation charges text value:1000.
+2024-12-16 16:06:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get total charges text value:1000.
+2024-12-16 16:06:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 16:06:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element: save success fully text value:Saved Successfully.
+2024-12-16 16:06:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Get text UHID text value:HSH240000000655.
+2024-12-16 16:06:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify patient name text value:MR. KRISHNA NAYUDU KOTA.
+2024-12-16 16:06:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get vist no text value:HSHOP240000721.
+2024-12-16 16:06:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify department of patient text value:Cardiology.
+2024-12-16 16:06:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click close btn
+2024-12-16 16:06:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on Redirecting
+2024-12-16 16:06:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Complet on element:send data from service
+2024-12-16 16:06:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on serach btn
+2024-12-16 16:06:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on lab_check_box
+2024-12-16 16:06:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on add btn
+2024-12-16 16:07:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get doctor_fee text value:1000.00.
+2024-12-16 16:07:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get lab_fee text value:150.00.
+2024-12-16 16:07:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:get bill_amout text value:1150.00.
+2024-12-16 16:07:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Billing admin on element::select creditGivenBy.
+2024-12-16 16:07:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Billing admin on element::select creditApprovedBy.
+2024-12-16 16:07:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:fee pending on element:Enter remarks
+2024-12-16 16:07:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click save btn
+2024-12-16 16:07:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on ok button
+2024-12-16 16:07:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:click on billprint_btn
+2024-12-16 16:08:22 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 16:08:22 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:registration_Manorama -----><b>
+2024-12-16 16:08:22 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : registration_Manorama finished
+2024-12-16 22:13:33 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 22:13:35 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 22:13:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 22:13:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 22:13:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 22:13:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 22:14:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 22:14:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 22:14:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 22:14:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 22:14:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 22:14:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 22:14:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 22:14:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 22:14:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 22:14:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788835" on element:mobileumber enter
+2024-12-16 22:14:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 22:14:20 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f951fed893919d617109fca139c50990, clickElement {id=f.EB5EF522DA0AFD814F9172A4E40E721B.d.C11C2A129B5946FA5BC8272B10082A57.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53344}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53344/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f951fed893919d617109fca139c50990)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: f951fed893919d617109fca139c50990 - Failed.
+2024-12-16 22:14:20 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f951fed893919d617109fca139c50990, clickElement {id=f.EB5EF522DA0AFD814F9172A4E40E721B.d.C11C2A129B5946FA5BC8272B10082A57.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53344}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53344/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f951fed893919d617109fca139c50990)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: f951fed893919d617109fca139c50990 - Failed.
+2024-12-16 22:27:42 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 22:27:44 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 22:27:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 22:27:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 22:27:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 22:28:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 22:28:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 22:28:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 22:28:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 22:28:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 22:28:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 22:28:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 22:28:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 22:28:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 22:28:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 22:28:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788835" on element:mobileumber enter
+2024-12-16 22:28:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 22:28:29 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [416a9f37cfc6f35e17dfc03bced8b605, clickElement {id=f.0B9B2A570B6849429BFB71F73979A251.d.2232BF18C7FC58CD9E6BA40719AAF535.e.417}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53813/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (416a9f37cfc6f35e17dfc03bced8b605)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: 416a9f37cfc6f35e17dfc03bced8b605 - Failed.
+2024-12-16 22:28:30 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [416a9f37cfc6f35e17dfc03bced8b605, clickElement {id=f.0B9B2A570B6849429BFB71F73979A251.d.2232BF18C7FC58CD9E6BA40719AAF535.e.417}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53813/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (416a9f37cfc6f35e17dfc03bced8b605)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: 416a9f37cfc6f35e17dfc03bced8b605 - Failed.
+2024-12-16 22:29:19 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-12-16 22:29:21 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case registration_Manorama
+2024-12-16 22:29:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-12-16 22:29:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:testing on element:Sign-In-email, Phone or Skype text field
+2024-12-16 22:29:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:user on element:Password text field
+2024-12-16 22:29:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-12-16 22:29:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b><Going to valiadate page title><b>
+2024-12-16 22:29:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Search link is availble text value:Search Patient.
+2024-12-16 22:29:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :MR. on element::Select_dropdown_Prefix.
+2024-12-16 22:29:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Krishna  on element:Enter name
+2024-12-16 22:29:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nayudu on element:Enter middle name
+2024-12-16 22:29:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kota on element:Enter Last name
+2024-12-16 22:29:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:Verify Helth card name text value:Krishna Nayudu Kota.
+2024-12-16 22:29:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:verify name on print text value:MR. Krishna Nayudu Kota.
+2024-12-16 22:29:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:38 on element:Enter_year_name
+2024-12-16 22:29:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:"9997788835" on element:mobileumber enter
+2024-12-16 22:29:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:enter permanent address
+2024-12-16 22:30:02 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f71e5bebd8f616df1b9a68e54a2f27e3, clickElement {id=f.7BAEDA03A6FB4894C669E411F598A74D.d.53E3D1D2FFF433F4553A0A8153298D70.e.416}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53900/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f71e5bebd8f616df1b9a68e54a2f27e3)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: f71e5bebd8f616df1b9a68e54a2f27e3 - Failed.
+2024-12-16 22:30:02 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element <button class="btn btn-flat btn-xs" id="btnSelectDept" type="button" title="" onclick="GetDepartmentList(event);">...</button> is not clickable at point (305, 373). Other element would receive the click: <div id="divMsgBack" style="background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;">...</div>
+  (Session info: chrome=131.0.6778.140)
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f71e5bebd8f616df1b9a68e54a2f27e3, clickElement {id=f.7BAEDA03A6FB4894C669E411F598A74D.d.53E3D1D2FFF433F4553A0A8153298D70.e.416}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53900}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53900/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f71e5bebd8f616df1b9a68e54a2f27e3)] -> xpath: //button[@id='btnSelectDept' and @onclick='GetDepartmentList(event);']]
+Session ID: f71e5bebd8f616df1b9a68e54a2f27e3 - Failed.

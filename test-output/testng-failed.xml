@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.manorama.testClasses.SmokePath">
+        <methods>
+          <include name="modeOfPayment"/>
+          <include name="startReporting"/>
+          <include name="registration_bill_cancel_Manorama"/>
+          <include name="generateResult"/>
+          <include name="update_patient_name"/>
+          <include name="search_functions"/>
+          <include name="patient_followup_vist"/>
+          <include name="visitDetails"/>
+          <include name="suiteSetup"/>
+          <include name="testResult"/>
+        </methods>
+      </class> <!-- com.manorama.testClasses.SmokePath -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

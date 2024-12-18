@@ -1,0 +1,11 @@
+2024-03-20 10:53:47 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-20 10:53:57 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveInvester_RFA
+2024-03-20 10:53:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Lender credential<b>
+2024-03-20 10:54:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver2.test@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-20 10:54:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-20 10:54:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Truboard@2023 on element:Password text field
+2024-03-20 10:54:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-20 10:54:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-20 10:54:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu

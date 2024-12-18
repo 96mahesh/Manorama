@@ -1,0 +1,781 @@
+2024-03-04 11:41:17 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 11:41:22 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case raiseNOCRequest
+2024-03-04 11:41:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 11:41:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 11:41:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 11:41:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 11:41:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 11:41:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 11:41:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 11:41:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 11:41:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 11:41:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 11:42:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 11:42:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 11:42:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:RequestNocBtn
+2024-03-04 11:42:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --189 on element:SearchUnitNo
+2024-03-04 11:42:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:10000 on element:PaymentReceivedTillDate
+2024-03-04 11:42:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Test on element:EnterRemark
+2024-03-04 11:42:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadBankStatement
+2024-03-04 11:42:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadLedger.
+2024-03-04 11:43:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:VerifyPayment
+2024-03-04 11:43:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download.
+2024-03-04 11:43:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadedSignedRequestFileName.
+2024-03-04 11:43:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:signedIssuanceUploadedLetter text value:Customer_ABC.xls.
+2024-03-04 11:43:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:submitBtn
+2024-03-04 11:43:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:YesButton
+2024-03-04 11:43:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 11:43:55 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:raiseNOCRequest -----><b>
+2024-03-04 11:43:55 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : raiseNOCRequest finished
+2024-03-04 11:43:58 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-04 11:43:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-04 11:44:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 11:44:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 11:44:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-04 11:44:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 11:44:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 11:44:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 11:44:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 11:44:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 11:44:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 11:44:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 11:44:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 11:44:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 11:44:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-04 11:44:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 11:44:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --189 on element:SearchPendingTable
+2024-03-04 11:44:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests
+2024-03-04 11:45:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 11:45:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 11:45:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:logoutBtcIconClicking.
+2024-03-04 11:45:56 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:Logout button wait.no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='anchor-caption' and text()='Logout']"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d55d872f2d6d559de4cec33c9ce2e77a, findElement {using=xpath, value=//span[@class='anchor-caption' and text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62871/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d55d872f2d6d559de4cec33c9ce2e77a - Failed.
+2024-03-04 11:45:56 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:Logout button wait.no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='anchor-caption' and text()='Logout']"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d55d872f2d6d559de4cec33c9ce2e77a, findElement {using=xpath, value=//span[@class='anchor-caption' and text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62871/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d55d872f2d6d559de4cec33c9ce2e77a - Failed.
+2024-03-04 11:46:55 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 11:46:57 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:Logout button.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //span[@class='anchor-caption' and text()='Logout'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62871/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d55d872f2d6d559de4cec33c9ce2e77a - Failed.
+2024-03-04 11:46:58 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:Logout button.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //span[@class='anchor-caption' and text()='Logout'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62871/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d55d872f2d6d559de4cec33c9ce2e77a - Failed.
+2024-03-04 11:46:58 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-04 11:46:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-04 11:47:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 11:47:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 11:47:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-04 11:47:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 11:47:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 11:47:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 11:47:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 11:47:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 11:47:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 11:47:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 11:47:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 11:47:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 11:47:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-04 11:47:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 11:47:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --189 on element:SearchPendingTable
+2024-03-04 11:48:09 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 11:48:12 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveInvester_RFA
+2024-03-04 11:48:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Lender credential<b>
+2024-03-04 11:48:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver1.test@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 11:48:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 11:48:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Truboard@2023 on element:Password text field
+2024-03-04 11:48:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 11:48:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 11:48:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 11:48:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 11:48:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 11:48:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 11:48:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 11:48:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 11:48:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 11:49:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables.
+2024-03-04 11:49:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 11:49:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --189 on element:SearchPendingTable
+2024-03-04 11:49:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests.
+2024-03-04 11:49:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 11:49:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download_Btn
+2024-03-04 11:49:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Upload.
+2024-03-04 11:49:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 11:50:48 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:approveInvester_RFA -----><b>
+2024-03-04 11:50:48 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:approveInvester_RFA -----><b>
+2024-03-04 11:50:48 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveInvester_RFA finished
+2024-03-04 11:54:43 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 11:54:45 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveDT_RFA
+2024-03-04 11:54:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Debenture credential<b>
+2024-03-04 11:54:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 11:54:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 11:54:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:vE&9?igeGi!est on element:Password text field
+2024-03-04 11:55:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 11:55:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 11:55:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 11:55:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 11:55:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 11:55:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 11:55:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 11:55:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 11:55:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 11:55:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --189 on element:SearchPendingTable
+2024-03-04 11:55:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Authorize
+2024-03-04 11:55:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 11:55:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download_Btn
+2024-03-04 11:55:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Upload.
+2024-03-04 11:56:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 11:56:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 11:56:14 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:approveDT_RFA -----><b>
+2024-03-04 11:56:14 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveDT_RFA finished
+2024-03-04 11:56:28 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 11:56:31 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case validationOnApprovedNOC
+2024-03-04 11:56:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 11:56:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 11:56:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 11:56:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 11:56:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 11:56:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 11:57:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 11:57:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 11:57:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 11:57:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 11:57:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 11:57:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 11:57:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 11:57:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --189 on element:SearchPendingTable
+2024-03-04 11:57:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 11:57:47 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:validationOnApprovedNOC -----><b>
+2024-03-04 11:57:47 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : validationOnApprovedNOC finished
+2024-03-04 12:00:34 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:00:36 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-04 12:00:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-04 12:00:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:00:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:00:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-04 12:00:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:00:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:01:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:01:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:01:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:01:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:01:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:01:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:01:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:01:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-04 12:01:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:01:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A-1-662 on element:SearchPendingTable
+2024-03-04 12:01:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests
+2024-03-04 12:01:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 12:01:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 12:01:52 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:approvePMC_RFA -----><b>
+2024-03-04 12:01:52 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approvePMC_RFA finished
+2024-03-04 12:02:21 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:02:23 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveInvester_RFA
+2024-03-04 12:02:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Lender credential<b>
+2024-03-04 12:02:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver1.test@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:02:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:02:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Truboard@2023 on element:Password text field
+2024-03-04 12:02:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:02:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:02:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:02:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:02:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:02:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:02:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:02:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:03:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:03:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables.
+2024-03-04 12:03:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:03:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A-1-662 on element:SearchPendingTable
+2024-03-04 12:03:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests.
+2024-03-04 12:03:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 12:03:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download_Btn
+2024-03-04 12:03:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Upload.
+2024-03-04 12:03:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 12:03:56 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:approveInvester_RFA -----><b>
+2024-03-04 12:03:56 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:approveInvester_RFA -----><b>
+2024-03-04 12:03:56 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveInvester_RFA finished
+2024-03-04 12:06:11 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:06:13 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-04 12:06:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-04 12:06:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:06:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:06:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-04 12:06:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:06:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:06:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:06:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:06:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:06:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:06:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:06:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:06:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:07:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-04 12:07:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:07:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower C--841 on element:SearchPendingTable
+2024-03-04 12:07:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests
+2024-03-04 12:07:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 12:09:46 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:09:48 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-04 12:09:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-04 12:09:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:09:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:10:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-04 12:10:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:10:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:10:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:10:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:10:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:10:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:10:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:10:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:10:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:10:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-04 12:10:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:10:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A-1-662 on element:SearchPendingTable
+2024-03-04 12:11:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests
+2024-03-04 12:11:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 12:11:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 12:11:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:logoutBtcIconClicking.
+2024-03-04 12:12:26 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:Logout button wait.no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='anchor-caption' and text()='Logout']"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2aedd73321e7ae0838fdb75c1752ef7, findElement {using=xpath, value=//span[@class='anchor-caption' and text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64089/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2aedd73321e7ae0838fdb75c1752ef7 - Failed.
+2024-03-04 12:12:26 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:Logout button wait.no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='anchor-caption' and text()='Logout']"}
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2aedd73321e7ae0838fdb75c1752ef7, findElement {using=xpath, value=//span[@class='anchor-caption' and text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64089/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2aedd73321e7ae0838fdb75c1752ef7 - Failed.
+2024-03-04 12:13:27 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:Logout button.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //span[@class='anchor-caption' and text()='Logout'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64089/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2aedd73321e7ae0838fdb75c1752ef7 - Failed.
+2024-03-04 12:13:27 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:Logout button.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //span[@class='anchor-caption' and text()='Logout'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64089}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64089/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e2aedd73321e7ae0838fdb75c1752ef7 - Failed.
+2024-03-04 12:23:54 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:23:56 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case raiseNOCRequest
+2024-03-04 12:23:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 12:24:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:24:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:24:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 12:24:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:24:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:24:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 12:24:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 12:24:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 12:24:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 12:24:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 12:24:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 12:24:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:RequestNocBtn
+2024-03-04 12:24:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --186 on element:SearchUnitNo
+2024-03-04 12:25:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:10000 on element:PaymentReceivedTillDate
+2024-03-04 12:25:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Test on element:EnterRemark
+2024-03-04 12:25:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadBankStatement
+2024-03-04 12:25:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadLedger.
+2024-03-04 12:25:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:VerifyPayment
+2024-03-04 12:25:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download.
+2024-03-04 12:25:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadedSignedRequestFileName.
+2024-03-04 12:26:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:signedIssuanceUploadedLetter text value:Customer_ABC.xls.
+2024-03-04 12:26:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:submitBtn
+2024-03-04 12:26:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:YesButton
+2024-03-04 12:26:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 12:26:28 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:raiseNOCRequest -----><b>
+2024-03-04 12:26:28 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : raiseNOCRequest finished
+2024-03-04 12:26:30 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-04 12:26:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-04 12:26:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:26:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:26:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-04 12:26:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:26:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:26:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:26:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:27:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:27:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:27:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:27:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:27:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:27:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-04 12:27:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:27:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --186 on element:SearchPendingTable
+2024-03-04 12:27:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests
+2024-03-04 12:27:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 12:27:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 12:27:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:logoutBtcIconClicking.
+2024-03-04 12:27:56 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:Logout button wait.invalid selector: Unable to locate an element with the xpath expression ///span[text()='Log out'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///span[text()='Log out']' is not a valid XPath expression.
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24da5e39be49d16f84424da53b7ddace, findElement {using=xpath, value=///span[text()='Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65182/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24da5e39be49d16f84424da53b7ddace - Failed.
+2024-03-04 12:27:56 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:Logout button wait.invalid selector: Unable to locate an element with the xpath expression ///span[text()='Log out'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///span[text()='Log out']' is not a valid XPath expression.
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24da5e39be49d16f84424da53b7ddace, findElement {using=xpath, value=///span[text()='Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65182/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24da5e39be49d16f84424da53b7ddace - Failed.
+2024-03-04 12:27:56 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:Logout button.Exceptioninvalid selector: Unable to locate an element with the xpath expression ///span[text()='Log out'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///span[text()='Log out']' is not a valid XPath expression.
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24da5e39be49d16f84424da53b7ddace, findElement {using=xpath, value=///span[text()='Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65182/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24da5e39be49d16f84424da53b7ddace - Failed.
+2024-03-04 12:27:56 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:Logout button.Exceptioninvalid selector: Unable to locate an element with the xpath expression ///span[text()='Log out'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '///span[text()='Log out']' is not a valid XPath expression.
+  (Session info: chrome=122.0.6261.95)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24da5e39be49d16f84424da53b7ddace, findElement {using=xpath, value=///span[text()='Log out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65182}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65182/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 24da5e39be49d16f84424da53b7ddace - Failed.
+2024-03-04 12:30:51 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:30:53 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveInvester_RFA
+2024-03-04 12:30:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Lender credential<b>
+2024-03-04 12:30:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver1.test@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:30:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:31:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Truboard@2023 on element:Password text field
+2024-03-04 12:31:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:31:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:31:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:31:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:31:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:31:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:31:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:31:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:31:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:31:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables.
+2024-03-04 12:31:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:31:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --186 on element:SearchPendingTable
+2024-03-04 12:31:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests.
+2024-03-04 12:31:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 12:31:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download_Btn
+2024-03-04 12:32:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Upload.
+2024-03-04 12:32:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 12:32:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:logoutBtcIconClicking.
+2024-03-04 12:32:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 12:32:42 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:approveInvester_RFA -----><b>
+2024-03-04 12:32:42 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveInvester_RFA finished
+2024-03-04 12:38:08 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:38:11 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveDT_RFA
+2024-03-04 12:38:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Debenture credential<b>
+2024-03-04 12:38:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:38:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:38:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:vE&9?igeGi!est on element:Password text field
+2024-03-04 12:38:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:38:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:38:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 12:38:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 12:38:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 12:38:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 12:38:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 12:38:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 12:38:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:38:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --186 on element:SearchPendingTable
+2024-03-04 12:39:22 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:39:23 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:39:26 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveInvester_RFA
+2024-03-04 12:39:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Lender credential<b>
+2024-03-04 12:39:27 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveInvester_RFA
+2024-03-04 12:39:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Lender credential<b>
+2024-03-04 12:39:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver1.test@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:39:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver1.test@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:39:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:39:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:39:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Truboard@2023 on element:Password text field
+2024-03-04 12:39:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Truboard@2023 on element:Password text field
+2024-03-04 12:39:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:39:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:39:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:39:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:39:52 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:approveDT_RFA -----><b>
+2024-03-04 12:39:53 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:approveDT_RFA -----><b>
+2024-03-04 12:39:53 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveDT_RFA finished
+2024-03-04 12:39:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:39:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:39:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:39:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:39:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:40:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:40:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:40:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:40:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:40:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:40:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:40:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:40:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:40:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:40:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables.
+2024-03-04 12:40:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables.
+2024-03-04 12:40:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:40:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:40:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --186 on element:SearchPendingTable
+2024-03-04 12:40:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --186 on element:SearchPendingTable
+2024-03-04 12:40:51 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:40:54 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-04 12:40:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-04 12:41:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:41:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:41:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-04 12:41:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:41:20 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:approveInvester_RFA -----><b>
+2024-03-04 12:41:21 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:approveInvester_RFA -----><b>
+2024-03-04 12:41:21 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveInvester_RFA finished
+2024-03-04 12:41:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:41:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:41:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:41:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:41:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:41:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:41:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:41:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:41:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-04 12:41:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:41:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --186 on element:SearchPendingTable
+2024-03-04 12:45:57 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 12:46:00 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case raiseNOCRequest
+2024-03-04 12:46:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 12:46:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:46:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:46:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 12:46:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:46:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:46:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 12:46:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 12:46:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 12:46:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 12:46:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 12:46:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 12:46:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:RequestNocBtn
+2024-03-04 12:46:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --190 on element:SearchUnitNo
+2024-03-04 12:47:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:10000 on element:PaymentReceivedTillDate
+2024-03-04 12:47:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Test on element:EnterRemark
+2024-03-04 12:47:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadBankStatement
+2024-03-04 12:47:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadLedger.
+2024-03-04 12:47:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:VerifyPayment
+2024-03-04 12:47:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download.
+2024-03-04 12:47:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadedSignedRequestFileName.
+2024-03-04 12:48:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:signedIssuanceUploadedLetter text value:Customer_ABC.xls.
+2024-03-04 12:48:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:submitBtn
+2024-03-04 12:48:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:YesButton
+2024-03-04 12:48:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 12:48:31 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:raiseNOCRequest -----><b>
+2024-03-04 12:48:31 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : raiseNOCRequest finished
+2024-03-04 12:48:33 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-04 12:48:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-04 12:48:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:48:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:48:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-04 12:48:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:48:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:48:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:49:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:49:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:49:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:49:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:49:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:49:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:49:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-04 12:49:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:49:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --190 on element:SearchPendingTable
+2024-03-04 12:49:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests
+2024-03-04 12:49:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 12:49:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 12:49:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:logoutBtcIconClicking.
+2024-03-04 12:50:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 12:50:00 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:approvePMC_RFA -----><b>
+2024-03-04 12:50:00 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approvePMC_RFA finished
+2024-03-04 12:50:02 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveInvester_RFA
+2024-03-04 12:50:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Lender credential<b>
+2024-03-04 12:50:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver1.test@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:50:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:50:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Truboard@2023 on element:Password text field
+2024-03-04 12:50:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:50:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:50:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-04 12:50:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-04 12:50:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-04 12:50:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-04 12:50:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-04 12:50:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-04 12:50:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-04 12:50:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables.
+2024-03-04 12:50:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:50:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --190 on element:SearchPendingTable
+2024-03-04 12:50:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests.
+2024-03-04 12:50:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 12:51:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download_Btn
+2024-03-04 12:51:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Upload.
+2024-03-04 12:51:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 12:51:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:logoutBtcIconClicking.
+2024-03-04 12:51:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 12:51:50 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:approveInvester_RFA -----><b>
+2024-03-04 12:51:50 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveInvester_RFA finished
+2024-03-04 12:51:52 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveDT_RFA
+2024-03-04 12:51:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Debenture credential<b>
+2024-03-04 12:51:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:51:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:52:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:vE&9?igeGi!est on element:Password text field
+2024-03-04 12:52:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:52:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:52:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 12:52:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 12:52:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 12:52:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 12:52:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 12:52:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 12:52:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:52:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --190 on element:SearchPendingTable
+2024-03-04 12:53:33 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:approveDT_RFA -----><b>
+2024-03-04 12:53:33 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:approveDT_RFA -----><b>
+2024-03-04 12:53:33 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveDT_RFA finished
+2024-03-04 12:53:35 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case validationOnApprovedNOC
+2024-03-04 12:53:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 12:53:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 12:53:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 12:53:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 12:53:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 12:53:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 12:54:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 12:54:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 12:54:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 12:54:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 12:54:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 12:54:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 12:54:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 12:54:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --190 on element:SearchPendingTable
+2024-03-04 12:55:36 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:validationOnApprovedNOC -----><b>
+2024-03-04 12:55:36 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:validationOnApprovedNOC -----><b>
+2024-03-04 12:55:36 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : validationOnApprovedNOC finished
+2024-03-04 13:06:27 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 13:06:29 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveDT_RFA
+2024-03-04 13:06:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Debenture credential<b>
+2024-03-04 13:06:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 13:06:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 13:06:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:vE&9?igeGi!est on element:Password text field
+2024-03-04 13:06:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 13:06:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 13:06:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 13:06:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 13:06:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 13:06:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 13:07:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 13:07:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 13:07:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 13:07:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --190 on element:SearchPendingTable
+2024-03-04 13:07:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Authorize
+2024-03-04 13:07:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-04 13:07:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download_Btn
+2024-03-04 13:07:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Upload.
+2024-03-04 13:07:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-04 13:07:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 13:07:56 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:approveDT_RFA -----><b>
+2024-03-04 13:07:56 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveDT_RFA finished
+2024-03-04 13:08:12 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 13:08:14 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case validationOnApprovedNOC
+2024-03-04 13:08:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 13:08:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 13:08:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 13:08:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 13:08:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 13:08:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 13:08:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 13:08:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 13:08:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 13:08:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 13:08:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 13:08:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 13:09:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 13:09:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --190 on element:SearchPendingTable
+2024-03-04 13:09:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-04 13:09:28 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:validationOnApprovedNOC -----><b>
+2024-03-04 13:09:28 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : validationOnApprovedNOC finished
+2024-03-04 14:24:07 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 14:24:12 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case withDrawNOCRequest
+2024-03-04 14:24:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 14:24:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 14:24:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 14:24:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 14:24:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 14:24:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 14:24:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 14:24:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 14:24:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 14:24:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 14:24:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 14:24:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 14:25:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 14:25:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A-Wing A-406 on element:SearchPendingTable
+2024-03-04 14:25:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:WithdrawNocBtn
+2024-03-04 14:25:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:YesBtn_WithdrawPopup
+2024-03-04 14:25:31 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:withDrawNOCRequest -----><b>
+2024-03-04 14:25:31 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : withDrawNOCRequest finished
+2024-03-04 14:35:07 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 14:35:12 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case withDrawNOCRequest
+2024-03-04 14:35:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 14:35:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 14:35:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 14:35:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 14:35:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 14:35:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 14:35:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 14:35:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 14:35:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 14:35:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 14:35:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 14:35:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 14:36:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 14:36:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A-Wing A-406 on element:SearchPendingTable
+2024-03-04 14:37:00 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 14:37:06 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case withDrawNOCRequest
+2024-03-04 14:37:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 14:37:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 14:37:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 14:37:20 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:withDrawNOCRequest -----><b>
+2024-03-04 14:37:21 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:withDrawNOCRequest -----><b>
+2024-03-04 14:37:21 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : withDrawNOCRequest finished
+2024-03-04 14:37:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 14:37:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 14:37:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 14:37:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 14:37:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 14:37:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 14:37:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 14:37:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 14:37:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 14:38:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 14:38:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A-Wing A-406 on element:SearchPendingTable
+2024-03-04 14:39:15 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:withDrawNOCRequest -----><b>
+2024-03-04 14:39:16 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:withDrawNOCRequest -----><b>
+2024-03-04 14:39:16 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : withDrawNOCRequest finished
+2024-03-04 14:39:16 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 14:39:21 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case withDrawNOCRequest
+2024-03-04 14:39:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 14:39:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 14:39:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 14:39:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 14:39:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 14:39:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 14:39:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 14:39:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 14:39:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 14:39:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 14:40:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 14:40:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 14:40:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 14:40:24 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---<b><------ Test case failed for test:withDrawNOCRequest -----><b>
+2024-03-04 14:40:24 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---<b><------ Test case failed for test:withDrawNOCRequest -----><b>
+2024-03-04 14:40:24 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : withDrawNOCRequest finished
+2024-03-04 14:41:10 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-04 14:41:13 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case withDrawNOCRequest
+2024-03-04 14:41:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-04 14:41:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-04 14:41:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-04 14:41:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-04 14:41:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-04 14:41:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-04 14:41:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-04 14:41:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-04 14:41:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-04 14:41:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-04 14:41:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-04 14:41:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-04 14:42:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-04 14:42:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A-Wing A-406 on element:SearchPendingTable
+2024-03-04 14:42:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:WithdrawNocBtn
+2024-03-04 14:42:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:YesBtn_WithdrawPopup
+2024-03-04 14:42:25 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:withDrawNOCRequest -----><b>
+2024-03-04 14:42:25 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : withDrawNOCRequest finished

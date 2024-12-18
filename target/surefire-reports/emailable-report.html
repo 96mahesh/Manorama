@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">6</td><td class="num">0</td><td class="num attn">1</td><td class="num">52,211</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.manorama.testClasses.SmokePath</td><td><a href="#m0">testResult</a></td><td rowspan="1">1734543790184</td><td rowspan="1">2</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.manorama.testClasses.SmokePath</td><td><a href="#m1">registration_Manorama</a></td><td rowspan="1">1734543742790</td><td rowspan="1">47356</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="12">com.manorama.testClasses.SmokePath</td><td><a href="#m2">startReporting</a></td><td rowspan="6">1734543790264</td><td rowspan="6">-1734543790264</td></tr><tr class="skippedeven"><td><a href="#m3">startReporting</a></td></tr><tr class="skippedeven"><td><a href="#m4">startReporting</a></td></tr><tr class="skippedeven"><td><a href="#m5">startReporting</a></td></tr><tr class="skippedeven"><td><a href="#m6">startReporting</a></td></tr><tr class="skippedeven"><td><a href="#m7">startReporting</a></td></tr><tr class="skippedeven"><td><a href="#m8">testResult</a></td><td rowspan="6">1734543790219</td><td rowspan="6">-1734543790219</td></tr><tr class="skippedeven"><td><a href="#m9">testResult</a></td></tr><tr class="skippedeven"><td><a href="#m10">testResult</a></td></tr><tr class="skippedeven"><td><a href="#m11">testResult</a></td></tr><tr class="skippedeven"><td><a href="#m12">testResult</a></td></tr><tr class="skippedeven"><td><a href="#m13">testResult</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="6">com.manorama.testClasses.SmokePath</td><td><a href="#m14">modeOfPayment</a></td><td rowspan="1">1734543790252</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m15">patient_followup_vist</a></td><td rowspan="1">1734543790279</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m16">registration_bill_cancel_Manorama</a></td><td rowspan="1">1734543790212</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m17">search_functions</a></td><td rowspan="1">1734543790266</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m18">update_patient_name</a></td><td rowspan="1">1734543790227</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m19">visitDetails</a></td><td rowspan="1">1734543790240</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.manorama.testClasses.SmokePath#testResult</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>public void com.manorama.testClasses.SmokePath.registration_Manorama() throws java.lang.Exception</td><td>[TestResult name=registration_Manorama status=FAILURE method=SmokePath.registration_Manorama()[pri:0, instance:com.manorama.testClasses.SmokePath@52719fb6] output={null}]</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Exception occured in while validating Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element &lt;button class=&quot;btn btn-flat btn-xs&quot; id=&quot;btnSelectDept&quot; type=&quot;button&quot; title=&quot;&quot; onclick=&quot;GetDepartmentList(event);&quot;&gt;...&lt;/button&gt; is not clickable at point (305, 373). Other element would receive the click: &lt;div id=&quot;divMsgBack&quot; style=&quot;background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53d83b02d259f007fc442ed039399835, clickElement {id=f.845560D336D9A676A02A4B8A02DC1B2C.d.890FF9BB18029F999B6914DDDA128551.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56696/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (53d83b02d259f007fc442ed039399835)] -&gt; xpath: //button[@id=&apos;btnSelectDept&apos; and @onclick=&apos;GetDepartmentList(event);&apos;]]
+Session ID: 53d83b02d259f007fc442ed039399835 expected [true] but found [false]
+	at com.manorama.framework.BaseTest.testResult(BaseTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.manorama.testClasses.SmokePath#registration_Manorama</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at com.manorama.framework.AssertManager.sAssertException(AssertManager.java:163)
+	at com.manorama.utils.UIUtils.clickElement(UIUtils.java:467)
+	at com.manorama.pageClasses.Manorama_Registrationpage.clickOndepartment(Manorama_Registrationpage.java:201)
+	at com.manorama.testClasses.SmokePath.registration_Manorama(SmokePath.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.manorama.testClasses.SmokePath#startReporting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.manorama.testClasses.SmokePath#startReporting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.manorama.testClasses.SmokePath#startReporting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.manorama.testClasses.SmokePath#startReporting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.manorama.testClasses.SmokePath#startReporting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.manorama.testClasses.SmokePath#startReporting</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.manorama.testClasses.SmokePath#testResult</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.manorama.testClasses.SmokePath#testResult</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.manorama.testClasses.SmokePath#testResult</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.manorama.testClasses.SmokePath#testResult</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">com.manorama.testClasses.SmokePath#testResult</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.manorama.testClasses.SmokePath#testResult</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.manorama.testClasses.SmokePath#modeOfPayment</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Exception occured in while validating Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element &lt;button class=&quot;btn btn-flat btn-xs&quot; id=&quot;btnSelectDept&quot; type=&quot;button&quot; title=&quot;&quot; onclick=&quot;GetDepartmentList(event);&quot;&gt;...&lt;/button&gt; is not clickable at point (305, 373). Other element would receive the click: &lt;div id=&quot;divMsgBack&quot; style=&quot;background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53d83b02d259f007fc442ed039399835, clickElement {id=f.845560D336D9A676A02A4B8A02DC1B2C.d.890FF9BB18029F999B6914DDDA128551.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56696/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (53d83b02d259f007fc442ed039399835)] -&gt; xpath: //button[@id=&apos;btnSelectDept&apos; and @onclick=&apos;GetDepartmentList(event);&apos;]]
+Session ID: 53d83b02d259f007fc442ed039399835 expected [true] but found [false]
+	at com.manorama.framework.BaseTest.testResult(BaseTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.manorama.testClasses.SmokePath#patient_followup_vist</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Exception occured in while validating Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element &lt;button class=&quot;btn btn-flat btn-xs&quot; id=&quot;btnSelectDept&quot; type=&quot;button&quot; title=&quot;&quot; onclick=&quot;GetDepartmentList(event);&quot;&gt;...&lt;/button&gt; is not clickable at point (305, 373). Other element would receive the click: &lt;div id=&quot;divMsgBack&quot; style=&quot;background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53d83b02d259f007fc442ed039399835, clickElement {id=f.845560D336D9A676A02A4B8A02DC1B2C.d.890FF9BB18029F999B6914DDDA128551.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56696/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (53d83b02d259f007fc442ed039399835)] -&gt; xpath: //button[@id=&apos;btnSelectDept&apos; and @onclick=&apos;GetDepartmentList(event);&apos;]]
+Session ID: 53d83b02d259f007fc442ed039399835 expected [true] but found [false]
+	at com.manorama.framework.BaseTest.testResult(BaseTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">com.manorama.testClasses.SmokePath#registration_bill_cancel_Manorama</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Exception occured in while validating Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element &lt;button class=&quot;btn btn-flat btn-xs&quot; id=&quot;btnSelectDept&quot; type=&quot;button&quot; title=&quot;&quot; onclick=&quot;GetDepartmentList(event);&quot;&gt;...&lt;/button&gt; is not clickable at point (305, 373). Other element would receive the click: &lt;div id=&quot;divMsgBack&quot; style=&quot;background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53d83b02d259f007fc442ed039399835, clickElement {id=f.845560D336D9A676A02A4B8A02DC1B2C.d.890FF9BB18029F999B6914DDDA128551.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56696/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (53d83b02d259f007fc442ed039399835)] -&gt; xpath: //button[@id=&apos;btnSelectDept&apos; and @onclick=&apos;GetDepartmentList(event);&apos;]]
+Session ID: 53d83b02d259f007fc442ed039399835 expected [true] but found [false]
+	at com.manorama.framework.BaseTest.testResult(BaseTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">com.manorama.testClasses.SmokePath#search_functions</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Exception occured in while validating Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element &lt;button class=&quot;btn btn-flat btn-xs&quot; id=&quot;btnSelectDept&quot; type=&quot;button&quot; title=&quot;&quot; onclick=&quot;GetDepartmentList(event);&quot;&gt;...&lt;/button&gt; is not clickable at point (305, 373). Other element would receive the click: &lt;div id=&quot;divMsgBack&quot; style=&quot;background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53d83b02d259f007fc442ed039399835, clickElement {id=f.845560D336D9A676A02A4B8A02DC1B2C.d.890FF9BB18029F999B6914DDDA128551.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56696/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (53d83b02d259f007fc442ed039399835)] -&gt; xpath: //button[@id=&apos;btnSelectDept&apos; and @onclick=&apos;GetDepartmentList(event);&apos;]]
+Session ID: 53d83b02d259f007fc442ed039399835 expected [true] but found [false]
+	at com.manorama.framework.BaseTest.testResult(BaseTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">com.manorama.testClasses.SmokePath#update_patient_name</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Exception occured in while validating Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element &lt;button class=&quot;btn btn-flat btn-xs&quot; id=&quot;btnSelectDept&quot; type=&quot;button&quot; title=&quot;&quot; onclick=&quot;GetDepartmentList(event);&quot;&gt;...&lt;/button&gt; is not clickable at point (305, 373). Other element would receive the click: &lt;div id=&quot;divMsgBack&quot; style=&quot;background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53d83b02d259f007fc442ed039399835, clickElement {id=f.845560D336D9A676A02A4B8A02DC1B2C.d.890FF9BB18029F999B6914DDDA128551.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56696/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (53d83b02d259f007fc442ed039399835)] -&gt; xpath: //button[@id=&apos;btnSelectDept&apos; and @onclick=&apos;GetDepartmentList(event);&apos;]]
+Session ID: 53d83b02d259f007fc442ed039399835 expected [true] but found [false]
+	at com.manorama.framework.BaseTest.testResult(BaseTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">com.manorama.testClasses.SmokePath#visitDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	Exception occured in while validating Failed while clicking on element:click_on_department.Exceptionelement click intercepted: Element &lt;button class=&quot;btn btn-flat btn-xs&quot; id=&quot;btnSelectDept&quot; type=&quot;button&quot; title=&quot;&quot; onclick=&quot;GetDepartmentList(event);&quot;&gt;...&lt;/button&gt; is not clickable at point (305, 373). Other element would receive the click: &lt;div id=&quot;divMsgBack&quot; style=&quot;background: rgba(0, 0, 0, 0.7); width: 100%; height: 100%; top: 0px; left: 0px; z-index: 2000; position: fixed;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=131.0.6778.140)
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [53d83b02d259f007fc442ed039399835, clickElement {id=f.845560D336D9A676A02A4B8A02DC1B2C.d.890FF9BB18029F999B6914DDDA128551.e.418}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.140, chrome: {chromedriverVersion: 131.0.6778.108 (3b014839fbc..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56696}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56696/devtoo..., se:cdpVersion: 131.0.6778.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (53d83b02d259f007fc442ed039399835)] -&gt; xpath: //button[@id=&apos;btnSelectDept&apos; and @onclick=&apos;GetDepartmentList(event);&apos;]]
+Session ID: 53d83b02d259f007fc442ed039399835 expected [true] but found [false]
+	at com.manorama.framework.BaseTest.testResult(BaseTest.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,609 @@
+2024-03-01 17:02:48 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:02:55 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case raiseNOCRequest
+2024-03-01 17:02:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-01 17:03:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:03:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:03:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-01 17:03:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:03:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:03:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-01 17:03:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-01 17:03:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-01 17:03:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset TP2 on element:Sarch
+2024-03-01 17:03:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-01 17:03:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-01 17:03:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:RequestNocBtn
+2024-03-01 17:03:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --181 on element:SearchUnitNo
+2024-03-01 17:04:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:10000 on element:PaymentReceivedTillDate
+2024-03-01 17:04:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Test on element:EnterRemark
+2024-03-01 17:04:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadBankStatement
+2024-03-01 17:04:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Moved on element:UploadLedger.
+2024-03-01 17:04:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadLedger.
+2024-03-01 17:04:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:VerifyPayment
+2024-03-01 17:04:49 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:Download wait.unexpected alert open: {Alert text : Please upload the ledger file}
+  (Session info: chrome=122.0.6261.70): Please upload the ledger file
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7320d523f2f0a4ad2d68c358f605071c, findElement {using=xpath, value=//span[normalize-space()='Download']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51840}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51840/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7320d523f2f0a4ad2d68c358f605071c - Failed.
+2024-03-01 17:04:49 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:Download wait.unexpected alert open: {Alert text : Please upload the ledger file}
+  (Session info: chrome=122.0.6261.70): Please upload the ledger file
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7320d523f2f0a4ad2d68c358f605071c, findElement {using=xpath, value=//span[normalize-space()='Download']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51840}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51840/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7320d523f2f0a4ad2d68c358f605071c - Failed.
+2024-03-01 17:10:41 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:10:43 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case raiseNOCRequest
+2024-03-01 17:10:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer credential<b>
+2024-03-01 17:10:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:10:50 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:10:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Kuz16929 on element:Password text field
+2024-03-01 17:10:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:11:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:11:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-01 17:11:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-01 17:11:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-01 17:11:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset TP2 on element:Sarch
+2024-03-01 17:11:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-01 17:11:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-01 17:11:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:RequestNocBtn
+2024-03-01 17:11:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --181 on element:SearchUnitNo
+2024-03-01 17:11:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:10000 on element:PaymentReceivedTillDate
+2024-03-01 17:11:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Test on element:EnterRemark
+2024-03-01 17:12:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadBankStatement
+2024-03-01 17:12:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadLedger.
+2024-03-01 17:12:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:VerifyPayment
+2024-03-01 17:12:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download.
+2024-03-01 17:12:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:UploadedSignedRequestFileName.
+2024-03-01 17:12:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Element:signedIssuanceUploadedLetter text value:Customer_ABC.xls.
+2024-03-01 17:12:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:submitBtn
+2024-03-01 17:13:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:YesButton
+2024-03-01 17:13:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-01 17:13:15 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:raiseNOCRequest -----><b>
+2024-03-01 17:13:15 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : raiseNOCRequest finished
+2024-03-01 17:14:31 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:14:33 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-01 17:14:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-01 17:14:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:14:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:14:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-01 17:14:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:14:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:14:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-01 17:15:32 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:NOC Link wait.no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='NOC']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed3993a4f78d90d2c58a4831d3102c96, findElement {using=xpath, value=//span[text()='NOC']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52316/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed3993a4f78d90d2c58a4831d3102c96 - Failed.
+2024-03-01 17:15:32 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:NOC Link wait.no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='NOC']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed3993a4f78d90d2c58a4831d3102c96, findElement {using=xpath, value=//span[text()='NOC']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52316/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed3993a4f78d90d2c58a4831d3102c96 - Failed.
+2024-03-01 17:16:33 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:NOC Link.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //span[text()='NOC'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52316/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed3993a4f78d90d2c58a4831d3102c96 - Failed.
+2024-03-01 17:16:33 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:NOC Link.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //span[text()='NOC'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52316}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52316/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed3993a4f78d90d2c58a4831d3102c96 - Failed.
+2024-03-01 17:17:18 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:17:20 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-01 17:17:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-01 17:17:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:17:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:17:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-01 17:17:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:17:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:17:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-01 17:17:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-01 17:17:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-01 17:17:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-01 17:17:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-01 17:18:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-01 17:18:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-01 17:18:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --181 on element:SearchPendingTable
+2024-03-01 17:18:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests
+2024-03-01 17:18:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Reject on element::FinalDecisionTable.
+2024-03-01 17:19:36 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:19:38 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-01 17:19:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-01 17:19:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:19:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:19:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-01 17:19:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:19:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:20:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-01 17:20:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-01 17:20:10 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-01 17:20:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-01 17:20:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-01 17:20:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-01 17:20:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-01 17:20:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-01 17:20:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-01 17:20:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --181 on element:SearchPendingTable
+2024-03-01 17:20:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests
+2024-03-01 17:20:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Reject on element::FinalDecisionTable.
+2024-03-01 17:20:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-01 17:21:23 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:21:25 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approvePMC_RFA
+2024-03-01 17:21:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Developer2 credential<b>
+2024-03-01 17:21:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:21:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:21:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:wRawreje4=nuSp on element:Password text field
+2024-03-01 17:21:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:21:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:21:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-01 17:22:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-01 17:22:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-01 17:22:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-01 17:22:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-01 17:22:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-01 17:22:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-01 17:22:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables
+2024-03-01 17:22:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-01 17:22:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --181 on element:SearchPendingTable
+2024-03-01 17:22:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests
+2024-03-01 17:22:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-01 17:22:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-01 17:23:23 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:Logout button wait.no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='anchor-caption' and text()='Logout']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d5ebaea930aebcc1210698f1d4b0cc4, findElement {using=xpath, value=//span[@class='anchor-caption' and text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52770}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52770/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d5ebaea930aebcc1210698f1d4b0cc4 - Failed.
+2024-03-01 17:23:23 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:Logout button wait.no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='anchor-caption' and text()='Logout']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6d5ebaea930aebcc1210698f1d4b0cc4, findElement {using=xpath, value=//span[@class='anchor-caption' and text()='Logout']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52770}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52770/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d5ebaea930aebcc1210698f1d4b0cc4 - Failed.
+2024-03-01 17:24:24 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:Logout button.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //span[@class='anchor-caption' and text()='Logout'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52770}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52770/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d5ebaea930aebcc1210698f1d4b0cc4 - Failed.
+2024-03-01 17:24:24 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:Logout button.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //span[@class='anchor-caption' and text()='Logout'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52770}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52770/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d5ebaea930aebcc1210698f1d4b0cc4 - Failed.
+2024-03-01 17:33:29 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:33:31 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveInvester_RFA
+2024-03-01 17:33:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Lender credential<b>
+2024-03-01 17:33:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver1.test@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:33:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:33:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Truboard@2023 on element:Password text field
+2024-03-01 17:33:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:33:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:33:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-01 17:34:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-01 17:34:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-01 17:34:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-01 17:34:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-01 17:34:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NOC Link
+2024-03-01 17:34:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ManageRequest_Link
+2024-03-01 17:34:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ShowMyDeliverables.
+2024-03-01 17:34:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-01 17:34:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --181 on element:SearchPendingTable
+2024-03-01 17:34:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ApproveAndAuthorizeORCancelNocFirstRowInPendingRequests.
+2024-03-01 17:34:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-01 17:34:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download_Btn
+2024-03-01 17:34:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Upload.
+2024-03-01 17:35:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-01 17:35:14 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:logoutBtcIconClicking.Exceptionelement click intercepted: Element <span class="sr-only">...</span> is not clickable at point (1262, 17). Other element would receive the click: <button wmbutton="" dropdowntoggle="" aria-haspopup="true" aria-expanded="false" hint.bind="hint" shortcutkey.bind="shortcutkey" tabindex.bind="tabindex" caption.bind="caption" iconclass.bind="iconclass" iconposition.bind="iconposition" widget-id="widget-id1014" class="app-button app-header-action btn btn-transparent dropdown-toggle" aria-label="Menu" type="undefined" tabindex="0" icon-position="left" title="" style="color: rgb(12, 10, 67); padding-top: 15px;">...</button>
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5929cf0341a92b1523495572577f41fc, clickElement {id=f.7B9D7B4D0003D1E06D536B02487B54BC.d.A3E088C86501E7C4A2B8C9A03A8BD776.e.1097}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53449/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5929cf0341a92b1523495572577f41fc)] -> xpath: //button[@type='undefined' and @tabindex.bind='tabindex']//span[text()=' Icon']]
+Session ID: 5929cf0341a92b1523495572577f41fc - Failed.
+2024-03-01 17:35:15 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:logoutBtcIconClicking.Exceptionelement click intercepted: Element <span class="sr-only">...</span> is not clickable at point (1262, 17). Other element would receive the click: <button wmbutton="" dropdowntoggle="" aria-haspopup="true" aria-expanded="false" hint.bind="hint" shortcutkey.bind="shortcutkey" tabindex.bind="tabindex" caption.bind="caption" iconclass.bind="iconclass" iconposition.bind="iconposition" widget-id="widget-id1014" class="app-button app-header-action btn btn-transparent dropdown-toggle" aria-label="Menu" type="undefined" tabindex="0" icon-position="left" title="" style="color: rgb(12, 10, 67); padding-top: 15px;">...</button>
+  (Session info: chrome=122.0.6261.70)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5929cf0341a92b1523495572577f41fc, clickElement {id=f.7B9D7B4D0003D1E06D536B02487B54BC.d.A3E088C86501E7C4A2B8C9A03A8BD776.e.1097}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53449}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53449/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5929cf0341a92b1523495572577f41fc)] -> xpath: //button[@type='undefined' and @tabindex.bind='tabindex']//span[text()=' Icon']]
+Session ID: 5929cf0341a92b1523495572577f41fc - Failed.
+2024-03-01 17:37:09 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:37:11 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveDT_RFA
+2024-03-01 17:37:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Debenture credential<b>
+2024-03-01 17:37:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:37:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:37:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:vE&9?igeGi!est on element:Password text field
+2024-03-01 17:37:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:37:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:37:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-01 17:37:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-01 17:38:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-01 17:38:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-01 17:38:37 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:ViewRequest wait.no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='View Request']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c4e06d7641463a7752c083e9ef9015e, findElement {using=xpath, value=//button[@title='View Request']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53928/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c4e06d7641463a7752c083e9ef9015e - Failed.
+2024-03-01 17:38:37 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:ViewRequest wait.no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='View Request']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c4e06d7641463a7752c083e9ef9015e, findElement {using=xpath, value=//button[@title='View Request']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53928/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c4e06d7641463a7752c083e9ef9015e - Failed.
+2024-03-01 17:38:45 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:38:48 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveDT_RFA
+2024-03-01 17:38:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Debenture credential<b>
+2024-03-01 17:38:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:38:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:39:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:vE&9?igeGi!est on element:Password text field
+2024-03-01 17:39:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:39:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:39:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-01 17:39:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-01 17:39:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-01 17:39:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-01 17:39:38 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:ViewRequest.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //button[@title='View Request'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53928/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c4e06d7641463a7752c083e9ef9015e - Failed.
+2024-03-01 17:39:38 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:ViewRequest.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //button[@title='View Request'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53928/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1c4e06d7641463a7752c083e9ef9015e - Failed.
+2024-03-01 17:39:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-01 17:39:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-01 17:39:46 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-01 17:39:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --181 on element:SearchPendingTable
+2024-03-01 17:40:51 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:Authorize wait.no such element: Unable to locate element: {"method":"xpath","selector":"(//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20c339197d56774b6ec16f61ae7abb1f, findElement {using=xpath, value=(//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54174/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20c339197d56774b6ec16f61ae7abb1f - Failed.
+2024-03-01 17:40:51 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:Authorize wait.no such element: Unable to locate element: {"method":"xpath","selector":"(//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [20c339197d56774b6ec16f61ae7abb1f, findElement {using=xpath, value=(//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54174/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20c339197d56774b6ec16f61ae7abb1f - Failed.
+2024-03-01 17:41:51 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:Authorize.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: (//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54174/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20c339197d56774b6ec16f61ae7abb1f - Failed.
+2024-03-01 17:41:52 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:Authorize.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: (//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54174/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20c339197d56774b6ec16f61ae7abb1f - Failed.
+2024-03-01 17:44:54 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:44:58 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveDT_RFA
+2024-03-01 17:44:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Debenture credential<b>
+2024-03-01 17:45:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:45:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:45:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:vE&9?igeGi!est on element:Password text field
+2024-03-01 17:45:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:45:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:45:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-01 17:45:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-01 17:45:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-01 17:45:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-01 17:46:10 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:ViewRequest wait.no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='View Request']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d62cf87a9c5367372fecb3dbcc511d2b, findElement {using=xpath, value=//button[@title='View Request']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54602/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d62cf87a9c5367372fecb3dbcc511d2b - Failed.
+2024-03-01 17:46:10 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:ViewRequest wait.no such element: Unable to locate element: {"method":"xpath","selector":"//button[@title='View Request']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d62cf87a9c5367372fecb3dbcc511d2b, findElement {using=xpath, value=//button[@title='View Request']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54602/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d62cf87a9c5367372fecb3dbcc511d2b - Failed.
+2024-03-01 17:47:11 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:ViewRequest.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //button[@title='View Request'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54602/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d62cf87a9c5367372fecb3dbcc511d2b - Failed.
+2024-03-01 17:47:11 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:ViewRequest.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: //button[@title='View Request'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54602/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d62cf87a9c5367372fecb3dbcc511d2b - Failed.
+2024-03-01 17:56:09 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 17:56:14 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case workFlow_PMC
+2024-03-01 17:56:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Lender credential<b>
+2024-03-01 17:56:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver1.test@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 17:56:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:56:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Truboard@2023 on element:Password text field
+2024-03-01 17:56:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 17:56:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 17:56:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:AssertProfile Menu
+2024-03-01 17:56:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ProjectBtnClicking
+2024-03-01 17:56:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Select Project name.
+2024-03-01 17:56:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Enter value search box
+2024-03-01 17:56:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:clicking project rowname
+2024-03-01 17:56:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:setup Btn Clicking
+2024-03-01 17:56:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:update Btn Clicking
+2024-03-01 17:56:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:noc setup btn Clicking
+2024-03-01 17:56:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Delete button
+2024-03-01 17:57:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Yes Button
+2024-03-01 17:57:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Delete button
+2024-03-01 17:57:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Yes Button
+2024-03-01 17:57:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Delete button
+2024-03-01 17:57:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Yes Button
+2024-03-01 17:57:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Delete button
+2024-03-01 17:57:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Yes Button
+2024-03-01 17:57:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button in Entites
+2024-03-01 17:57:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Developer on element::Role Dropdown.
+2024-03-01 17:57:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Investee Test Perform on element::Entity Dropdown.
+2024-03-01 17:57:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit button
+2024-03-01 17:57:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button in Entites
+2024-03-01 17:57:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :PMC on element::Role Dropdown.
+2024-03-01 17:57:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :PMC Test Perform on element::Entity Dropdown.
+2024-03-01 17:57:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit button
+2024-03-01 17:57:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button in Entites
+2024-03-01 17:57:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Investor on element::Role Dropdown.
+2024-03-01 17:57:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Lender Test Perform on element::Entity Dropdown.
+2024-03-01 17:57:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit button
+2024-03-01 17:57:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button in Entites
+2024-03-01 17:57:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Debenture on element::Role Dropdown.
+2024-03-01 17:57:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Debenture Test Perform on element::Entity Dropdown.
+2024-03-01 17:57:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit button
+2024-03-01 17:57:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button in Users
+2024-03-01 17:57:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Developer on element::Role dropdown in user.
+2024-03-01 17:57:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Investee Test Perform on element::Entity dropdown in user.
+2024-03-01 17:57:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Test 1 on element::User dropdown in user.
+2024-03-01 17:57:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Developer on element:Enter user Designation
+2024-03-01 17:57:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:Address in user
+2024-03-01 17:57:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit Button
+2024-03-01 17:57:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button in Users
+2024-03-01 17:57:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :PMC on element::Role dropdown in user.
+2024-03-01 17:57:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :PMC Test Perform on element::Entity dropdown in user.
+2024-03-01 17:57:49 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Test 2 on element::User dropdown in user.
+2024-03-01 17:57:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Pmc on element:Enter user Designation
+2024-03-01 17:57:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:Address in user
+2024-03-01 17:57:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit Button
+2024-03-01 17:57:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button in Users
+2024-03-01 17:57:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Investor on element::Role dropdown in user.
+2024-03-01 17:57:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Lender Test Perform on element::Entity dropdown in user.
+2024-03-01 17:57:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approver1 test on element::User dropdown in user.
+2024-03-01 17:58:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Investor on element:Enter user Designation
+2024-03-01 17:58:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:Address in user
+2024-03-01 17:58:03 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit Button
+2024-03-01 17:58:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button in Users
+2024-03-01 17:58:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Debenture on element::Role dropdown in user.
+2024-03-01 17:58:07 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Debenture Test Perform on element::Entity dropdown in user.
+2024-03-01 17:58:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Test 3 on element::User dropdown in user.
+2024-03-01 17:58:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Debenture on element:Enter user Designation
+2024-03-01 17:58:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyderabad on element:Address in user
+2024-03-01 17:58:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit Button
+2024-03-01 17:58:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 17:58:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button
+2024-03-01 17:58:17 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Investee Test Perform on element::Entity_AddEntityPriority_Name.
+2024-03-01 17:58:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test1@truboardpartners.com on element:User_AddEntityPriority_Name.
+2024-03-01 17:58:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit_AddEntityPriority
+2024-03-01 17:58:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button
+2024-03-01 17:58:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :PMC Test Perform on element::Entity_AddEntityPriority_Name.
+2024-03-01 17:58:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Recommender on element::TypeOfStep_AddEntityPriority_Name.
+2024-03-01 17:58:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test2@truboardpartners.com on element:User_AddEntityPriority_Name.
+2024-03-01 17:58:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit_AddEntityPriority
+2024-03-01 17:58:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button
+2024-03-01 17:58:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Lender Test Perform on element::Entity_AddEntityPriority_Name.
+2024-03-01 17:58:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approver on element::TypeOfStep_AddEntityPriority_Name.
+2024-03-01 17:58:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:approver1.test@truboardpartners.com on element:User_AddEntityPriority_Name.
+2024-03-01 17:58:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit_AddEntityPriority
+2024-03-01 17:58:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:New Button
+2024-03-01 17:58:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Debenture Test Perform on element::Entity_AddEntityPriority_Name.
+2024-03-01 17:58:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approver on element::TypeOfStep_AddEntityPriority_Name.
+2024-03-01 17:58:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:User_AddEntityPriority_Name.
+2024-03-01 17:58:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Submit_AddEntityPriority
+2024-03-01 17:58:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NextBtn_ManageWorkFlow
+2024-03-01 17:59:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:DeleteIcon_AddAccountDetails
+2024-03-01 17:59:21 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Yes Button
+2024-03-01 17:59:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:DeleteIcon_AddAccountDetails
+2024-03-01 17:59:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Yes Button
+2024-03-01 17:59:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:DeleteIcon_AddAccountDetails
+2024-03-01 17:59:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Yes Button
+2024-03-01 17:59:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:DeleteIcon_AddAccountDetails
+2024-03-01 17:59:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Yes Button
+2024-03-01 17:59:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:DeleteIcon_AddAccountDetails
+2024-03-01 17:59:33 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Yes Button
+2024-03-01 17:59:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NewBtn_AddAccountDetails
+2024-03-01 17:59:36 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Master Collection on element::AccountTypeDrpdwn_AddAccount.
+2024-03-01 17:59:37 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nov 4, 2023 on element:FromDate
+2024-03-01 17:59:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:1234567890 on element:Account Number
+2024-03-01 17:59:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:HDFC on element:Bank Name
+2024-03-01 17:59:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyd on element:Address
+2024-03-01 17:59:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A on element:TowerDrpdwn.
+2024-03-01 17:59:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower B on element:TowerDrpdwn.
+2024-03-01 17:59:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:P143564884,P746465778 on element:Enter Rearano.
+2024-03-01 17:59:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn_AddAccount
+2024-03-01 17:59:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NewBtn_AddAccountDetails
+2024-03-01 17:59:55 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Master Collection on element::AccountTypeDrpdwn_AddAccount.
+2024-03-01 17:59:57 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nov 4, 2023 on element:FromDate
+2024-03-01 17:59:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:3214567980 on element:Account Number
+2024-03-01 17:59:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hdfc on element:Bank Name
+2024-03-01 18:00:01 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Mumbai on element:Address
+2024-03-01 18:00:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A on element:TowerDrpdwn.
+2024-03-01 18:00:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:P6765367985 on element:Enter Rearano
+2024-03-01 18:00:05 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn_AddAccount
+2024-03-01 18:00:06 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NewBtn_AddAccountDetails
+2024-03-01 18:00:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Master Collection on element::AccountTypeDrpdwn_AddAccount.
+2024-03-01 18:00:09 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nov 4, 2023 on element:FromDate
+2024-03-01 18:00:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:1234537890 on element:Account Number
+2024-03-01 18:00:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:HDFC on element:Bank Name
+2024-03-01 18:00:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Delhi on element:Address
+2024-03-01 18:00:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower B on element:TowerDrpdwn.
+2024-03-01 18:00:16 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:P4547857373 on element:Enter Rearano
+2024-03-01 18:00:18 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn_AddAccount
+2024-03-01 18:00:19 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NewBtn_AddAccountDetails
+2024-03-01 18:00:20 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Master Collection on element::AccountTypeDrpdwn_AddAccount.
+2024-03-01 18:00:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nov 4, 2023 on element:FromDate
+2024-03-01 18:00:23 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:12345653890 on element:Account Number
+2024-03-01 18:00:25 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:HDFC on element:Bank Name
+2024-03-01 18:00:26 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Hyd on element:Address
+2024-03-01 18:00:27 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower B on element:TowerDrpdwn.
+2024-03-01 18:00:29 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Tower A on element:TowerDrpdwn.
+2024-03-01 18:00:30 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:P564364782,P143567272 on element:Enter Rearano
+2024-03-01 18:00:32 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn_AddAccount
+2024-03-01 18:00:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Nov 4, 2023 on element:Threshold_Date
+2024-03-01 18:00:45 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Sanction Date on element::Threshold_Type.
+2024-03-01 18:00:47 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Flat Cost on element:PriceHeaders.
+2024-03-01 18:00:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project on element::Average_Price_Calculated_for.
+2024-03-01 18:00:53 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :3 on element::Period.
+2024-03-01 18:00:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next
+2024-03-01 18:00:56 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Done
+2024-03-01 18:00:56 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:workFlow_PMC -----><b>
+2024-03-01 18:00:56 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : workFlow_PMC finished
+2024-03-01 18:01:23 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 18:01:27 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveDT_RFA
+2024-03-01 18:01:28 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Debenture credential<b>
+2024-03-01 18:01:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 18:01:35 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 18:01:43 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:vE&9?igeGi!est on element:Password text field
+2024-03-01 18:01:44 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 18:01:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 18:01:58 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-01 18:01:59 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-01 18:02:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-01 18:02:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-01 18:02:08 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-01 18:02:11 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-01 18:02:12 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-01 18:02:14 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --181 on element:SearchPendingTable
+2024-03-01 18:02:49 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Exception occurred in element:Authorize wait.no such element: Unable to locate element: {"method":"xpath","selector":"(//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4616cb2f6a4b3a22d9dc7df51e0aa53f, findElement {using=xpath, value=(//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55895/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4616cb2f6a4b3a22d9dc7df51e0aa53f - Failed.
+2024-03-01 18:02:50 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Exception occurred in element:Authorize wait.no such element: Unable to locate element: {"method":"xpath","selector":"(//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize']"}
+  (Session info: chrome=122.0.6261.70)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4616cb2f6a4b3a22d9dc7df51e0aa53f, findElement {using=xpath, value=(//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55895/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4616cb2f6a4b3a22d9dc7df51e0aa53f - Failed.
+2024-03-01 18:03:51 INFO  BaseTest:49 - ---INFO--- ---ERROR--- ---FAIL---Exception occured while validating.Failed while clicking on element:Authorize.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: (//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55895/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4616cb2f6a4b3a22d9dc7df51e0aa53f - Failed.
+2024-03-01 18:03:51 INFO  BaseTest:49 - ---INFO--- ---FAIL--- ---FAIL---Exception occured while validating.Failed while clicking on element:Authorize.ExceptionExpected condition failed: waiting for visibility of element located by By.xpath: (//table[@class='table table-hover table-condensed'])[1]//tbody//button[@title='Authorize'] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.70, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55895}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55895/devtoo..., se:cdpVersion: 122.0.6261.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4616cb2f6a4b3a22d9dc7df51e0aa53f - Failed.
+2024-03-01 18:12:58 INFO  BaseTest:49 - ---INFO--- *********EXECUTION STARTED**********
+
+
+2024-03-01 18:13:03 INFO  BaseTest:49 - ---INFO--- ---INFO---Strating test case approveDT_RFA
+2024-03-01 18:13:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- <b>Going to login into TURBOPARTNERS application using Debenture credential<b>
+2024-03-01 18:13:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:test3@truboardpartners.com on element:Sign-In-email, Phone or Skype text field
+2024-03-01 18:13:15 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Next button
+2024-03-01 18:13:22 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:vE&9?igeGi!est on element:Password text field
+2024-03-01 18:13:24 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sign-In button
+2024-03-01 18:13:31 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:No button of Stay Sign-In
+2024-03-01 18:13:38 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Search Bar Field
+2024-03-01 18:13:39 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Project Name on element::Search Bar Field.
+2024-03-01 18:13:40 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Sarch
+2024-03-01 18:13:42 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Asset Test Perform1 on element:Sarch
+2024-03-01 18:13:48 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:ViewRequest
+2024-03-01 18:13:51 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:NocRequest
+2024-03-01 18:13:52 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Unit on element::SelectFieldPendingTable.
+2024-03-01 18:13:54 INFO  BaseTest:49 - ---INFO--- ---INFO--- Entered text:Plot --181 on element:SearchPendingTable
+2024-03-01 18:14:00 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Authorize
+2024-03-01 18:14:02 INFO  BaseTest:49 - ---INFO--- ---INFO--- Selected dropdown value as :Approve on element::FinalDecisionTable.
+2024-03-01 18:14:04 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Download_Btn
+2024-03-01 18:14:13 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Upload.
+2024-03-01 18:14:34 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:SubmitBtn
+2024-03-01 18:14:41 INFO  BaseTest:49 - ---INFO--- ---INFO--- Clicked on element:Logout button
+2024-03-01 18:14:41 INFO  BaseTest:49 - ---INFO--- ---PASS--- <b><------ Test case execution completed and successful for test:approveDT_RFA -----><b>
+2024-03-01 18:14:41 INFO  BaseTest:49 - ---INFO--- ---INFO---Test Case : approveDT_RFA finished
