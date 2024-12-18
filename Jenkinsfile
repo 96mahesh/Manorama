@@ -9,7 +9,7 @@ pipeline {
 
             steps {
 
-                git 'https://github.com/96mahesh/swaglabsrepo.git'
+                git 'https://github.com/96mahesh/Manorama.git'
 
             }
 
