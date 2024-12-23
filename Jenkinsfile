@@ -30,7 +30,7 @@ pipeline {
             steps {
 
                         allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
-                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
+               publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'test-output', reportFiles: 'C:\\Users\\Admin\\Manorama_workSpace\\manorama\\test-output\\emailable-report.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
                 testNG()
                 mail bcc: 'mahirampo@gmail.com', body: '''Hi dear, Good morning
 
