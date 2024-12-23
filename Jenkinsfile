@@ -29,7 +29,17 @@ pipeline {
 
             steps {
 
-                         junit '**/target/surefire-reports/TEST-*.xml'
+                        allure includeProperties: false, jdk: '', results: [[path: 'allure-results']]
+                publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '', reportFiles: 'index.html', reportName: 'HTML Report', reportTitles: '', useWrapperFileDirectly: true])
+                testNG()
+                mail bcc: 'mahirampo@gmail.com', body: '''Hi dear, Good morning
+
+I am sending my email reports through pipeline could you please check it once, If any quations let me know
+
+
+Thanks
+Mahesh
+7842358565''', cc: 'rampatrunimaheshbabu@gmail.com', from: '', replyTo: '', subject: 'Sending email reports', to: 'maheshrampatruni@gmail.com'
 
             }
 
